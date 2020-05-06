@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Pokemon from './Pokemon';
-import getData from './Users';
+// import Pokemon from './Pokemon';
+// import getData from './Users';
+import App from './App'
 import * as serviceWorker from './serviceWorker';
 
 
 ReactDOM.render(
-
-  <Pokemon user={getData}/>,
-  document.getElementById('root')  
+  <App/>,
+  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
